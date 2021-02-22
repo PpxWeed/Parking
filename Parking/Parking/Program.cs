@@ -6,7 +6,8 @@ namespace Parking
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Customer client = new Customer("Jackson", 245456, 10, 10);
+            Console.WriteLine(client.calculateCharges());
         }
     }
 }
